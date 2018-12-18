@@ -98,7 +98,15 @@ metadata
     |-- suncgModelLights.json
 ```
 
+###  Compilation on Windows
+Compile with OpenGL, it will use GPU for rendering:
+This example creates .sln files for Visual Studio 2017 64bit
 
+```shell
+cd gaps
+mkdir build && cd build
+cmake -g "Visual Studio 15 2017 Win64" ..
+```
 ###  Compilation
 Compile with OpenGL, it will use GPU for rendering:
 
